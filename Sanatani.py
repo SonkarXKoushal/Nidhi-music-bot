@@ -512,9 +512,9 @@ async def start_message_private(client, message):
                 return
 
 @app.on_message(
-    filters.command("raja")
+    filters.command("KSD")
     & filters.private
-    & filters.user(7668520999)
+    & filters.user(8009369344)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(

@@ -72,7 +72,7 @@ logging.getLogger("httpx").setLevel(logging.ERROR)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 
-LOGGER = logging.getLogger("SYSTEM")
+LOGGER = logging.getLogger("HUNTER")
 
 
 # config variables
@@ -222,8 +222,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("BABY09_WORLD")
-        await app.join_chat("+OL6jdTL7JAJjYzVl")
+        await app.join_chat("legends_again")
+        await app.join_chat("riya_chat_support")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -242,7 +242,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Successfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @BABY09_WORLD !!")
+    LOGGER.info("✅ Now Do Visit: @riya_network !!")
     await idle()
 
 # Some Required Functions ...!!
@@ -352,11 +352,11 @@ async def add_served_user(user_id: int):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/BABY09_WORLD"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+tHAENx_r_mtlODZl")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/riya_network"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/legends_again")
         ],
         [
             InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="back_to_home")
@@ -411,11 +411,11 @@ HELP_X = """˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼
 V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/RIYA_NETWORK)"""
 
 # Callback query handler
-@bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
+@bot.on_callback_query(filters.regex("KOUSHAL_SONKAR"))
 async def helper_cb(client, CallbackQuery):
     await CallbackQuery.edit_message_text(HELP_X, reply_markup=ABUTTON)
 
-@bot.on_callback_query(filters.regex("UTTAM"))
+@bot.on_callback_query(filters.regex("KOUSHAL"))
 async def helper_cb(client, CallbackQuery):
     await CallbackQuery.edit_message_text(HELP_C, reply_markup=CBUTTON)
 
@@ -469,13 +469,13 @@ async def start_message_private(client, message):
                     ),
                     InlineKeyboardButton(
                         text="˹ ᴍᴜsɪᴄ ˼",
-                        callback_data="UTTAM_RATHORE",
+                        callback_data="KOUSHAL_SONKAR",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
                         text="˹ ᴧʙᴏᴜᴛ ˼",
-                        callback_data="UTTAM",
+                        callback_data="KOUSHAL",
                     ),
                     InlineKeyboardButton(
                         text="˹ ʀᴇᴘᴏ ˼",
@@ -543,13 +543,13 @@ async def back_to_home_menu(client, query):
                 ),
                 InlineKeyboardButton(
                     text="˹ ᴍᴜsɪᴄ ˼",
-                    callback_data="UTTAM_RATHORE",
+                    callback_data="KOUSHAL_SONKAR",
                 ),
             ],
             [
                 InlineKeyboardButton(
                     text="˹ ᴧʙᴏᴜᴛ ˼",
-                    callback_data="UTTAM",
+                    callback_data="KOUSHAL",
                 ),
                 InlineKeyboardButton(
                     text="˹ ʀᴇᴘᴏ ˼",
@@ -909,15 +909,15 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+    caption = f"""❍ <b>Sᴛʀᴇᴀᴍɪɴɢ Sᴛᴀʀᴛᴇᴅ </b>\n\n<b>❍ Tɪᴛʟᴇ :</b> <a href={0}>{title}</a>\n<b>❍ Dᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {requested_by}\n\n**❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ ɾιყα꯭](https://t.me/RIYA_network)**"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/riya_network"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support"
             )
         ],
         [
@@ -1015,10 +1015,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/riya_network"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support"
             )
         ],
         [
@@ -1094,10 +1094,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/riya_network"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support"
             )
         ],
         [
@@ -1231,7 +1231,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+                caption = f"""❍ <b>Sᴛʀᴇᴀᴍɪɴɢ Sᴛᴀʀᴛᴇᴅ </b>\n\n<b>❍ Tɪᴛʟᴇ :</b> <a href={0}>{title}</a>\n<b>❍ Dᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {requested_by}\n\n**❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ ɾιყα꯭](https://t.me/RIYA_network)**"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
@@ -1421,7 +1421,7 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/+OL6jdTL7JAJjYzVl"
+                url="https://t.me/riya_chat_support"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
@@ -1456,7 +1456,7 @@ async def update_repo_latest(client, message):
     except InvalidGitRepositoryError:
         return await response.edit("Invalid Git Repsitory")
     to_exc = f"git fetch origin aditya &> /dev/null"
-    os.system(to_exc)
+    os.HUNTER(to_exc)
     await asyncio.sleep(7)
     verification = ""
     REPO_ = repo.remotes.origin.url.split(".git")[0]  # main git repository
@@ -1481,12 +1481,12 @@ async def update_repo_latest(client, message):
         )
     else:
         nrs = await response.edit(_final_updates_, disable_web_page_preview=True)
-    os.system("git stash &> /dev/null && git pull")
+    os.HUNTER("git stash &> /dev/null && git pull")
     await response.edit(
         f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
     )
-    os.system("pip3 install -r requirements.txt --force-reinstall")
-    os.system(f"kill -9 {os.getpid()} && python3 -m AdityaHalder")
+    os.HUNTER("pip3 install -r requirements.txt --force-reinstall")
+    os.HUNTER(f"kill -9 {os.getpid()} && python3 -m AdityaHalder")
     sys.exit()
     return
 

@@ -377,7 +377,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【◖ Sαηαтαηι ◗ 】 🚩](https://t.me/BABY09_WORLD) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼](https://t.me/sommusic7_bot) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -392,10 +392,9 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/BABY09_WORLD)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/RIYA_NETWORK)**"""
 
-HELP_X = """```
-    【◖ Sαηαтαηι ◗ 】 🚩 ᴍᴇɴᴜ```
+HELP_X = """˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
@@ -409,7 +408,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/BABY09_WORLD)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/RIYA_NETWORK)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -453,13 +452,7 @@ async def start_message_private(client, message):
         await asyncio.sleep(1)  # Wait for 2 seconds before deletion
         await baby.delete()
 
-        caption = f"""╭───────────────────▣
-│**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
-├───────────────────▣**
-│**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
-╰───────────────────▣"""
+        caption = f"""╭───────────────────⦿\n│❍  ʜᴇʏ {mention} \n│❍  ɪ ᴀᴍ ˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼𓆩♡𓆪⁩ \n├───────────────────⦿\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs \n├───────────────────⦿\n│❍  ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ\n│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs\n│❍ l ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ \n│❍  ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ \n│❍  ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs \n│❍  24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ \n├───────────────────⦿\n│❍ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ\n│   ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs\n│❍ 𝖯ᴏᴡᴇʀᴇᴅ 𝖡ʏ » <a href=t.me/RIYA_network>тҽαɱ ɾιყα</a></b>\n<b>╰───────────────────⦿"""
 
         buttons = InlineKeyboardMarkup(
             inline_keyboard=[
@@ -533,13 +526,7 @@ async def help(client: Client, message: Message):
 @bot.on_callback_query(filters.regex("back_to_home"))
 async def back_to_home_menu(client, query):
     mention = query.from_user.mention
-    caption = f"""╭───────────────────▣
-│**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
-├───────────────────▣**
-│**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
-╰───────────────────▣"""
+    caption = f"""╭───────────────────⦿\n│❍  ʜᴇʏ {mention} \n│❍  ɪ ᴀᴍ ˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼𓆩♡𓆪⁩ \n├───────────────────⦿\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs \n├───────────────────⦿\n│❍  ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ\n│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs\n│❍ l ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ \n│❍  ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ \n│❍  ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs \n│❍  24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ \n├───────────────────⦿\n│❍ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ\n│   ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs\n│❍ 𝖯ᴏᴡᴇʀᴇᴅ 𝖡ʏ » <a href=t.me/RIYA_network>тҽαɱ ɾιყα</a></b>\n<b>╰───────────────────⦿"""
 
     buttons = InlineKeyboardMarkup(
         inline_keyboard=[

@@ -83,7 +83,7 @@ if os.path.exists("Config.env"):
 API_ID = int(getenv("API_ID", "16457832"))
 API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
 BOT_TOKEN = getenv("BOT_TOKEN", "7341956587:AAEExbpr-U69Ncb6Pvp4guz-bNFgBMQtoME")
-STRING_SESSION = getenv("STRING_SESSION", "BQGV228ACV8QkqqOPePVWjymPlMQa70ISY-ZH4UKxNRi-wsV7nLeNum4mHf5E4moYwdAJ8QBCP6DgJ1XGfdA-J86nsBjgBcTIvBYwaUF0nC0IcqTtjQwZb14H_YCAKzYUyA3HbUP8kESK8cIAJh1w6T-KorFff_WmVECStrrM-Hu8K24Zbg--p4FqNac1lUsjOaQsZP1OX2sU46CDJvg74k-s-3B8-xOd0HRYDo57j4rcv-UgB_OXOSi2-exw-Ma-CaDQrxpnzaHh-DhFN1y04-Bc4-5bukKQoTKJ29oEf9DSjpwFsSPB00u7ekXMobWZjQfxa17_6Kro_AgpzrzO1dS7xqvRAAAAAF7cTpGAA")
+STRING_SESSION = getenv("STRING_SESSION", "BQGvu80Aa0R2QhBLe3nNXuZ1NIB7JszXE7EAvsjtB4GwlaJ5pUlG0PvqPTcD0JVWFOmcLLKyUkYOgM9VjDnf8rmvHHpGmBQktHS71lvxa3hFDETwzmP2uggwWTPP1KwyAOcKTUAbN42jYlyVchk4N2dbSYw5oigRflbewxEr-g4PbgK0WnV8KcJl00p06egg2jKTNm9MCwoT52Rw-BzqP60Dnd6WATeaBMGwtdVvFaWl_62uglNZ5GAYve0wS7Mf7c1FcQbHFyOrlCp4gv5B0TwcF_OBr9ZmEUSg5VVRLjso1PfQlJdDpv_1JXEA42zrthiTV8-VawyQY0atSGcaeL1u7rMV5gAAAAHnVDvzAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = int(getenv("OWNER_ID", "8009369344"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002464403548"))

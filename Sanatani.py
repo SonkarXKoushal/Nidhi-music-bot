@@ -82,11 +82,11 @@ if os.path.exists("Config.env"):
 
 API_ID = int(getenv("API_ID", "16457832"))
 API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
-BOT_TOKEN = getenv("BOT_TOKEN", "7341956587:AAEExbpr-U69Ncb6Pvp4guz-bNFgBMQtoME")
+BOT_TOKEN = getenv("BOT_TOKEN", "8384357888:AAFK5AXasi1qUgr_di5caJWGsvSz-hJ44qo")
 STRING_SESSION = getenv("STRING_SESSION", "BQGvu80Aa0R2QhBLe3nNXuZ1NIB7JszXE7EAvsjtB4GwlaJ5pUlG0PvqPTcD0JVWFOmcLLKyUkYOgM9VjDnf8rmvHHpGmBQktHS71lvxa3hFDETwzmP2uggwWTPP1KwyAOcKTUAbN42jYlyVchk4N2dbSYw5oigRflbewxEr-g4PbgK0WnV8KcJl00p06egg2jKTNm9MCwoT52Rw-BzqP60Dnd6WATeaBMGwtdVvFaWl_62uglNZ5GAYve0wS7Mf7c1FcQbHFyOrlCp4gv5B0TwcF_OBr9ZmEUSg5VVRLjso1PfQlJdDpv_1JXEA42zrthiTV8-VawyQY0atSGcaeL1u7rMV5gAAAAHnVDvzAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = int(getenv("OWNER_ID", "8009369344"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002464403548"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002694919109"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")

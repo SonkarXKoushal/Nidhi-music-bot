@@ -14,6 +14,7 @@ from logging.handlers import RotatingFileHandler
 
 
 from git import Repo
+from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from motor.motor_asyncio import AsyncIOMotorClient as _mongo_async_
 from pyrogram import filters
@@ -44,6 +45,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 
 loop = asyncio.get_event_loop()
+
 
 
 # versions dictionary
